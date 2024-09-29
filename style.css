@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #e2e5f0;
+}
+header{
+	background-color: #3b5998;
+}
+.header-container{
+	width: 1175px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.left-side-logo img{
+	width: 300px;
+	margin: 10px 0;
+}
+.right-side-login-area .login-input li{
+list-style-type: none;
+margin-right: 18px;
+}
+.login-input{
+	display: flex;
+}
+.right-side-login-area .login-input li label{
+	color: white;
+	font-weight: 300;
+	display: block;
+	margin-top: 18px;
+	margin-bottom: 5px;
+	font-size: 14px;
+}
+.right-side-login-area .login-input li input{
+	padding: 5px;
+	outline: none;
+	border: none;
+	border-radius: 1px;
+}
+.right-side-login-area .login-input li button{
+	transform: translateY(39px);
+	padding: 5px 5px;
+	background-color: #496fc2;
+	outline: none;
+	border: 1px solid #333;
+	
+}
+.right-side-login-area .login-input li button a{
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+	font-size: 14px;
+}
+.right-side-login-area .forgottenlink{
+	text-decoration: none;
+	color: rgba(255, 254, 254, 0.533);
+	display: inline-block;
+	transform: translateX(190px);
+	margin-top: 12px;
+	font-size: 14px;
+}
+.body-section{
+	display: flex;
+	width: 1175px;
+	margin: auto;
+}
+.left-side-area p{
+	font-size: 25px;
+	font-weight: 600;
+	color: #202632;
+	margin-top: 50px;
+	line-height: 2.3rem;
+}
+.left-side-area img {
+    width: 575px;
+    height: 250px;
+}
+.right-side-area{
+	width: 700px;
+	margin-left: 145px;
+}
+.right-side-area h1{
+	margin-top: 35px;
+	font-size: 42px;
+	color: #333;
+	margin-bottom: 15px;
+}
+.right-side-area h4{
+color: #333;
+margin-bottom: 15px;
+font-size: 20px;
+font-weight: 300;
+}
+.right-side-area .create-act .name{
+	padding: 10px 15px;
+	outline: none;
+	border-radius: 5px;
+	border: 2px solid #a8a4a4;
+	font-size: 20px;
+	width: 215px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+.right-side-area .create-act .num-pass{
+	display: block;
+	padding: 10px 15px;
+	outline: none;
+	border-radius: 5px;
+	border: 2px solid #a8a4a4;
+	font-size: 20px;
+	width: 98%;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+#date{
+	padding: 5px;
+	font-weight: 500;
+	font-size: 15px;
+	border: 1px solid #a8a4a4;
+	border-radius: 1px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+#month{
+	padding: 5px;
+	font-weight: 500;
+	font-size: 15px;
+	border: 1px solid #a8a4a4;
+	border-radius: 1px;
+	cursor: pointer;
+}
+#Year{
+	padding: 5px;
+	font-weight: 500;
+	font-size: 15px;
+	border: 1px solid #a8a4a4;
+	border-radius: 1px;
+	cursor: pointer;
+}
+.create-act label{
+	display: block;
+	font-size: 16px;
+	font-weight: 800;
+	color: #3333337e;
+	margin-bottom: 8px;
+}
+.create-act span{
+	font-size: 20px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+.create-act p{
+	margin-top: 15px;
+	text-align: justify;
+	font-size: 12px;
+	width: 320px;
+	line-height: 1.1rem;
+	margin-bottom: 15px;
+}
+.create-act p a{
+	text-decoration: none;
+	font-weight: 500;
+	color: #496fc2;
+}
+.create-act button a{
+	text-decoration: none;
+	color: white;
+}
+.create-act button{
+	padding: 10px 30px;
+	background-color: #5f994b;
+	font-size: 18px;
+	font-weight: 600;
+	outline: none;
+	border: 2px solid #3333337e;
+	border-radius: 5px;
+	width: 215px;
+	
+}
